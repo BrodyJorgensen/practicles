@@ -13,11 +13,9 @@ def main():
 
 
 def get_number_between(lower=LOWER, upper=UPPER):
-    number = int(
-        input("Enter a number between {} and {}: ".format(lower, upper)))
+    number = int(input("Enter a number between {} and {}: ".format(lower, upper)))
     while number < lower or number > upper:
-        number = int(
-            input("Enter a number between {} and {}: ".format(lower, upper)))
+        number = int(input("Enter a number between {} and {}: ".format(lower, upper)))
     return number
 
 
