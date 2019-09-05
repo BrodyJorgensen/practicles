@@ -18,7 +18,6 @@ full_initials = [name.split()[0][0] + name.split()[1][0] for name in
                  full_names]
 print(full_initials)
 
-# one more example, using filtering to select only the names that start with A
 a_names = [name for name in names if name.startswith('A')]
 print(a_names)
 
@@ -26,8 +25,8 @@ lowercase_full_names = [name.lower() for name in full_names]
 print(lowercase_full_names)
 
 listed_numbers = ['0', '10', '21', '3', '-7', '88', '9']
-numbers = [int(almost_number) for almost_number in listed_numbers]
+numbers = [int(a_number) for a_number in listed_numbers]
 print(numbers)
 
-larger_numbers = [number for number in numbers if number > 9]
-print(larger_numbers)
+large_numbers = [number for number in numbers if number > 9]
+print(large_numbers)
