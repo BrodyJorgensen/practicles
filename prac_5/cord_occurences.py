@@ -1,14 +1,14 @@
-word_to_count = {}
+words_to_count = {}
 phrase = input("Text: ")
 
 words = phrase.split()
 for word in words:
-    frequency = word_to_count.get(word, 0)
-    word_to_count[word] = frequency + 1
+    frequency = words_to_count.get(word, 0)
+    words_to_count[word] = frequency + 1
 
-words = list(word_to_count.keys())
+words = list(words_to_count.keys())
 words.sort()
 
 max_length = max((len(word) for word in words))
 for word in words:
-    print("{:{}} : {}".format(word, max_length, word_to_count[word]))
+    print("{:{}} : {}".format(word, max_length, words_to_count[word]))
