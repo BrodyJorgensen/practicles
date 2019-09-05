@@ -12,7 +12,7 @@ def main():
 def print_report(incomes):  # had trouble with this function referred to solutions and still am unsure
     print("\nIncome Report\n-------------")
     total = 0
-    for month, income in enumerate(incomes):  # TODO inquire why this is uesed
+    for month, income in enumerate(incomes):
         total += income
         print("Month {:2} - Income: &{:10.2f} Total: ${:10.2f}".format(month + 1, income, total))
 
