@@ -13,6 +13,7 @@ class Car:
         return "{}, fuel={}, odometer={}".format(self.type, self.fuel, self.odometer)
 
     def add_fuel(self, amount):
+
         """Add amount to the car's fuel."""
         self.fuel += amount
 
