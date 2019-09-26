@@ -12,7 +12,7 @@ class ProgrammingLanguage:
     def is_dynamic(self):
         return self.type == "dynamic"
 
-# testring if the language is dynamic
+# testing if the language is dynamic
 # def testing(self):
 #     ruby = ProgrammingLanguage("Ruby", "dynamic", True, 1995)
 #     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
@@ -25,4 +25,3 @@ class ProgrammingLanguage:
 #    for language in languages:
 #        if language.is_dynamic():
 #            print(language.name)
-              
