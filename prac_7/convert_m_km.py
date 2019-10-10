@@ -27,11 +27,11 @@ class MilesConverterApp(App):
         self.output_km = str(miles * MILES_TO_KM)
 
     def convert_to_number(self.number):
-        try:
-            value = float(number)
-            return value
-        except ValueError:
-            return 0
+    try:
+        value = float(number)
+        return value
+    except ValueError:
+        return 0
 
 
 MilesConverterApp().run()
